@@ -9,7 +9,7 @@ const getCurrentMinutesHrs = () => {
   }
   if (rem > 0) {
     min = min - rem;
-  }
+  } 
   if (min > 30) {
     hr = hr === 11 ? 0 : hr + 1;
   }
