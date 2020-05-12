@@ -3,7 +3,6 @@ const getCurrentMinutesHrs = () => {
   let hr = t.getHours();
   let min = t.getMinutes();
   const rem = min % 5;
-
   if (hr > 12) {
     hr = hr - 12;
   }
