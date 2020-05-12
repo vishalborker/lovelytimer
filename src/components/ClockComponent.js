@@ -48,6 +48,7 @@ class ClockComponent extends React.Component {
   */
   render() {
     const time = this.state.time;
+    console.log(time);
     return (
       <React.Fragment>
         <div className="container">
